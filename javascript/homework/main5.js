@@ -27,18 +27,18 @@
 
 //- створити функцію яка приймає масив та виводить кожен його елемент
 
-//function iter(arr) {
-//    for (const item of arr) {
-//        console.log(item);
-//    }
-//}
-//let animals = [
-//    {name: 'vasia', type: 'cat', age: 1.5},
-//    {name: 'bobik', type: 'dog', age: 3},
-//    {name: 'tusik', type: 'dog', age: 8},
-//    {name: 'murka', type: 'cat', age: 3},
-//];
-//iter(animals);
+function item(arr) {
+    for (const item of arr) {
+        console.log(item);
+    }
+}
+let animals = [
+    {name: 'vasia', type: 'cat', age: 1.5},
+    {name: 'bobik', type: 'dog', age: 3},
+    {name: 'tusik', type: 'dog', age: 8},
+    {name: 'murka', type: 'cat', age: 3},
+];
+item(animals);
 
 //- створити функцію яка створює параграф з текстом. Текст задати через аргумент
 
