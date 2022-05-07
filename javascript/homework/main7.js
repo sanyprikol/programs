@@ -225,4 +225,5 @@ let cardArr = [
 console.log(cardArr.find(value => value.cardSuit === 'clubs' && value.value === 'ace'));
 console.log(cardArr.filter(value => value.value === '6'));
 console.log(cardArr.filter(value => value.color === 'red'));
+console.log(cardArr.filter(value => value.cardSuit === 'diamond'));
 console.log(cardArr.filter(value => value.cardSuit === 'spade' && value.value > '8' || value.cardSuit === 'spade' && value.value ==='10'));
