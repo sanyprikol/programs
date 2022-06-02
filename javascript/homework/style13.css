@@ -1,0 +1,12 @@
+.wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.inner {
+    width: 19.8%;
+    border: 1px solid blue;
+    border-radius: 3%;
+    color: cadetblue;
+}
